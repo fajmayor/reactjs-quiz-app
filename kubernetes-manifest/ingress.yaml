@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: fajmayor.name.ng
+    - host: quizapp.fajmayor.name.ng
       http:
         paths:
           - path: /api/questions
