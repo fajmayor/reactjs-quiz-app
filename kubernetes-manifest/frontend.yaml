@@ -22,10 +22,10 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ogochukwuozotta/frontend-js:latest
+        image: fajmayor/frontend-js:latest
         env:
         - name: VITE_REACT_APP_API_URL
-          value: "http://quizapp.mooo.com/api/questions"
+          value: "http://quizapp.fajmayor.name.ng/api/questions"
         ports:
         - containerPort: 8080
 ---

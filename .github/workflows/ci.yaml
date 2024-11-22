@@ -113,6 +113,7 @@ jobs:
         working-directory: ./quiz-app
     steps:
       - uses: actions/checkout@master
+      
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
         continue-on-error: true # To make sure that SARIF upload gets called
