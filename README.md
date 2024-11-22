@@ -1,6 +1,6 @@
-#### In this comprehensive DevSecOps Kubernetes project, I successfully:
+### In this comprehensive DevSecOps Kubernetes project, I successfully:
 
-- Established IAM user and Terraform for AWS setup.
+- Established IAM user and Terraform for AWS setup. [IAC for the Project](https://github.com/fajmayor/iac-reactjs-quiz-app)
 
 - Deployed Infrastructure on AWS using Github Actions and Terraform and, configured tools.
 
